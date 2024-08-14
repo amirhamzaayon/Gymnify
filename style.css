@@ -18,7 +18,9 @@ header {
   background-size: cover;
   height: 100vh;
 }
-
+.humbarger {
+  display: none;
+}
 .menubar {
   display: flex;
   justify-content: space-between;
@@ -87,6 +89,14 @@ nav {
   line-height: 120%; /* 93.6px */
 
   margin-bottom: 28px;
+}
+.hero span {
+  color: #fff;
+  font-family: Dancing Script;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 .hero p {

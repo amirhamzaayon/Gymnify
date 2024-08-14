@@ -1,6 +1,12 @@
 @media (max-width: 576px) {
-  .menubar {
+  nav {
     display: none;
+  }
+  .menubar {
+    margin: 0px 20px;
+  }
+  .humbarger {
+    display: block;
   }
   .hero {
     flex-direction: column;
@@ -27,8 +33,12 @@
   }
   .hero-title {
     margin-bottom: 48px;
+    margin-top: 51px;
   }
   /* ---------------------------- */
+  .habits {
+    padding-top: 200px;
+  }
   .habit-lists {
     flex-direction: column;
   }
@@ -205,12 +215,11 @@
     grid-template-columns: 1fr;
 
     width: 313px;
-    height: 1148px;
+    height: 1160px;
 
     /* display: block; */
   }
-  .team-img-1,
-  .team-img-4 {
+  .team-img-1 {
     display: none;
   }
 
@@ -239,5 +248,10 @@
     justify-content: space-between;
 
     flex-direction: column;
+  }
+
+  .footer-title p {
+    width: 317px;
+    margin-bottom: 24px;
   }
 }
