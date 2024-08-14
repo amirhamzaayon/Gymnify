@@ -1,0 +1,243 @@
+@media (max-width: 576px) {
+  .menubar {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 0px 20px 48px 20px;
+  }
+
+  .hero h1 {
+    width: 285px;
+    font-size: 36px;
+
+    margin-bottom: 28px;
+  }
+
+  .hero p {
+    width: 274px;
+  }
+  .hero-button button {
+    width: 169px;
+  }
+  .hero-button button:last-child {
+    padding: 16px 20px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+  /* ---------------------------- */
+  .habit-lists {
+    flex-direction: column;
+  }
+  .habits-title h2 {
+    font-size: 32px;
+
+    padding-top: 48px;
+  }
+  .habits-title p {
+    width: 316px;
+  }
+
+  .box-1 {
+    right: -30px;
+    top: 50px;
+  }
+  .box-2 {
+    left: 0;
+    bottom: 250px;
+  }
+  .box-1 p {
+    width: 100%;
+  }
+  .box-2 p {
+    width: 100%;
+  }
+
+  /* ---------------------------- */
+
+  .join {
+    display: flex;
+    padding: 31px 33px 35px 33px;
+
+    /* align-items: center; */
+    gap: 31px;
+    /* align-self: stretch; */
+
+    width: 287px;
+    height: 465px;
+
+    margin: 0px auto 20px auto;
+    flex-direction: column;
+  }
+
+  .join-info h2 {
+    width: auto;
+    font-size: 32px;
+  }
+  .join-info p {
+    font-size: 14px;
+  }
+  .join img {
+    width: 287px;
+    height: 170px;
+  }
+  .join-info button {
+    width: 100%;
+  }
+
+  /* ----------------------------- */
+
+  .trainings h2 {
+    width: 331px;
+    font-size: 32px;
+  }
+  .trainings p {
+    width: 331px;
+
+    margin-bottom: 37px;
+  }
+
+  .trainings-photo {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 360px;
+    height: 403px;
+  }
+
+  .train-imag-3,
+  .train-imag-6 {
+    display: none;
+  }
+  .train-imag-1,
+  .train-imag-2,
+  .train-imag-4,
+  .train-imag-5 {
+    max-width: 160px;
+    height: 201px;
+  }
+
+  /* ------------------------------- */
+
+  .bmi-info {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    height: 790px;
+    background: #222;
+
+    margin-bottom: 48px;
+    flex-direction: column;
+
+    padding-left: 20px;
+  }
+  .bmi-title {
+    margin: 0px auto 32px auto;
+    padding-left: 20px;
+  }
+
+  .bmi h2 {
+    font-size: 32px;
+
+    width: 353px;
+  }
+  .bmi p {
+    width: 353px;
+  }
+  .bmi-chart h3 {
+    font-size: 16px;
+
+    margin-bottom: 23px;
+  }
+  .bmi-chart table,
+  .bmi-chart td,
+  .bmi-chart th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+
+    color: rgba(255, 255, 255, 0.5);
+
+    width: 300px;
+    height: 43px;
+
+    padding-left: 18px;
+  }
+
+  .bmi-cal h3 {
+    font-size: 16px;
+
+    margin-bottom: 14px;
+  }
+
+  .bmi-cal p {
+    width: 346px;
+  }
+
+  .cal-form input {
+    width: 111px;
+    height: 24px;
+
+    padding: 12px 40px 12px 20px;
+  }
+  .activity select,
+  .sex select {
+    width: 171px;
+    height: 48px;
+
+    padding: 12px 40px 12px 20px;
+  }
+
+  .bmi-cal {
+    width: 353px;
+
+    margin-top: 32px;
+  }
+  .cal-form {
+    width: 353px;
+  }
+
+  /* ------------------ */
+  .team-photo {
+    grid-template-columns: 1fr;
+
+    width: 313px;
+    height: 1148px;
+
+    /* display: block; */
+  }
+  .team-img-1,
+  .team-img-4 {
+    display: none;
+  }
+
+  .team h2 {
+    font-size: 32px;
+  }
+  .team p {
+    width: 309px;
+    font-size: 14px;
+  }
+
+  /* --------------------- */
+
+  .footer-div {
+    width: 100%;
+    height: 986px;
+  }
+
+  .footer-info {
+    width: 317px;
+    margin: 0px auto;
+
+    padding: 66px 0px 70px 0px;
+
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+  }
+}
